@@ -16,4 +16,4 @@ jobs:
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -runMode=console -testSuiteCollectionPath="Test Suites/S1 Login-SauceDemo" -apiKey= ${{ secrets.API_KEY }} -browserType="Chrome (headless)" -executionProfile="default" -orgID=653509 -testOpsProjectId=1207418 --config -webui.autoUpdateDrivers=true -proxy.auth.option=USE_SYSTEM -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true' 
+          args: '-noSplash -retry=0 -runMode=console -testSuitePath="Test Suites/My Info" -apiKey= ${{ secrets.API_KEY }} -browserType="Chrome (headless)" -executionProfile="default" --config -webui.autoUpdateDrivers=true' 
