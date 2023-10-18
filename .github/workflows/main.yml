@@ -16,4 +16,4 @@ jobs:
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuitePath="Test Suites/S1 Login-SauceDemo" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true' 
+          args: '-noSplash -runMode=console -projectPath="D:\Katalon Project\Demo Web\Day 1 Web-Based.prj" -retry=0 -testSuitePath="Test Suites/S1 Login-SauceDemo" -browserType="Remote" -executionProfile="default" -apiKey=${{ secrets.API_KEY }} -orgID=653509 -testOpsProjectId=1236067 --config -proxy.auth.option=USE_SYSTEM -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true' 
