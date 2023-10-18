@@ -16,4 +16,4 @@ jobs:
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -testSuitePath="Test Suites/S1 Login-SauceDemo" -browserType="Chrome (headless)" -executionProfile="default" -apiKey=${{ secrets.API_KEY }} -orgID=653509 -testOpsProjectId=1236067 --config -proxy.auth.option=USE_SYSTEM -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true' 
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/S1 Login-SauceDemo" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="159d0cba-d8a7-4481-8fcc-90793ef55195" -orgID=653509 -testOpsProjectId=1236067 --config -proxy.auth.option=USE_SYSTEM -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true' 
